@@ -8,12 +8,12 @@ Flask driven Catalog App for Udacity's 5th project.
 - Bootstraps
 
 ### Files and directories:
-1. Static - for .css and .js 
-2. Templates - for .html files
+1. Static directory - for .css and .js 
+2. Templates directory - for .html files
 3. JSON files - for Google and FB authentication
 4. db_setup.py, db_populate.py - for creating and populating DB
 5. itemscatalog.db - file representing the DB
-6. application.py for running the file
+6. application.py for running the app
 
 
 # RUNNING
@@ -35,3 +35,11 @@ In order for everyone to simulate the same environment we use vagrant and virtua
 4. (Optional, if you want to start from scratch, remove itemscatalog.db) Populate the database with categories by running db_populate.py 
 
 5. Run application.py and navigate to localhost:8000 in your browser
+
+## To-Do 
+1. Finish placement of the sign/in FB/Google buttons.
+2. Front-End styling needs more work.
+
+## Contact
+For any questions please feel free to contact me:<br />
+mikael.janek@gmail.com
