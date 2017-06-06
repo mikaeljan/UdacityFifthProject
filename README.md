@@ -1,12 +1,13 @@
 # Catalog Web Application - Udacity 5th Project
 Flask driven Catalog App for Udacity's 5th project.
-Some of the features:
+
+### Some of the features:
 - oAuth2.0 Google and FB login system
 - SQLAlchemy handling of DB
 - Flask framework
-- Bootstrap
+- Bootstraps
 
-Files and directories:
+### Files and directories:
 1. Static - for .css and .js 
 2. Templates - for .html files
 3. JSON files - for Google and FB authentication
@@ -19,7 +20,6 @@ Files and directories:
 In order for everyone to simulate the same environment we use vagrant and virtual box.
 
 ## INSTALLATION 
-  
   1. Download Vagrant and Virtual Box
   2. Download or clone Github Repo
   3. Python has to be installed on your computer. For details visit https://www.python.org/downloads/. 
