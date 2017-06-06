@@ -1,15 +1,37 @@
-# UdacityFifthProject
+# Catalog Web Application - Udacity 5th Project
 Flask driven Catalog App for Udacity's 5th project.
 Some of the features:
-- oAuth2.0 Googlsdae and FB login system
-- sqlalchemy handling of DB
-- Flask frameworksdsd
+- oAuth2.0 Google and FB login system
+- SQLAlchemy handling of DB
+- Flask framework
+- Bootstrap
 
-## Getting Started
-Before we begin coding, there are several steps that you should take to make sure that you have everything downloaded in order to run your future web application.
-Install Vagrant and VirtualBox if you have not done so already. Instructions on how to do so can be found on the websites as well as in the course materials..
-Clone the fullstack-nanodegree-vm repository. There is a catalog folder provided for you, but no files have been included. If a catalog folder does not exist, simply create your own inside of the vagrant folder.
-Launch the Vagrant VM (by typing vagrant up in the directory fullstack/vagrant from the terminal). You can find further instructions on how to do so here.
-Write the Flask application locally in the /vagrant/catalog directory (which will automatically be synced to /vagrant/catalog within the VM). Name it application.py.
-Run your application within the VM by typing python /vagrant/catalog/application.py into the Terminal. If you named the file from step 4 as something other than application.py, in the above command substitute in the file name on your computer.
-Access and test your application by visiting http://localhost:8000 locally on your browser.
+Files and directories:
+1. Static - for .css and .js 
+2. Templates - for .html files
+3. JSON files - for Google and FB authentication
+4. db_setup.py, db_populate.py - for creating and populating DB
+5. itemscatalog.db - file representing the DB
+6. application.py for running the file
+
+
+# RUNNING
+In order for everyone to simulate the same environment we use vagrant and virtual box.
+
+## INSTALLATION 
+  
+  1. Download Vagrant and Virtual Box
+  2. Download or clone Github Repo
+  3. Python has to be installed on your computer. For details visit https://www.python.org/downloads/. 
+    3.1. This project uses Python 2.7
+  
+## Executing the program
+1. Navigate to the vagrant environment with this project already included
+
+2. Run vagrant up and then vagrant ssh
+
+3. Inside the project folder, run database.py to create the database using python database.py
+
+4. (Optional, if you want to start from scratch, remove itemscatalog.db) Populate the database with categories by running db_populate.py 
+
+5. Run application.py and navigate to localhost:8000 in your browser
