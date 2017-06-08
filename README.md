@@ -41,10 +41,10 @@ In order for everyone to simulate the same environment we use vagrant and virtua
 2. Re-do the login check according to reviewer's comments:
   It is good that your are checking for User Authentication in all your CRUD function. However, you would have noticed that you are repeating this line of code in all your CRUD functions.
 
-> You can create a decorator function that you can use to check for user login status without having to repeat the same line of code in > areas that need to check for the login status. Decorators help you avoid DRY (Do Not Repeat Yourself) situations, makes your code less > bulky, and more attractive. Interestingly, we have the Flask Login decorator. Please check that out.
+> You can create a decorator function that you can use to check for user login status without having to repeat the same line of code in > areas that need to check for the login status. Decorators help you avoid DRY (Do Not Repeat Yourself) situations, makes your code less > bulky, and more attractive. Interestingly, we have the [Flask Login decorator](http://flask.pocoo.org/docs/0.12/patterns/viewdecorators/). Please check that out.
 
 3. Front-End styling needs more work.
-4. Remodel the forms using flask_wtf FORMs - more info at .TeamTreeHouse.
+4. Remodel the forms using flask_wtf FORMs - more info at [.TeamTreeHouse](https://teamtreehouse.com/library/build-a-social-network-with-flask/takin-names/registration-view).
 
 ## Contact
 For any questions please feel free to contact me:<br />
